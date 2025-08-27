@@ -12,7 +12,7 @@ namespace MyFIrstProject
             {
                 for (int i = 1; i <= 10; ++i)
                 {
-                    Console.WriteLine(num + " * " +  i + " = " + num * i);
+                    Console.WriteLine("{0} x {1} = {2}", num, i, num * i);
                 }
             }
             else
