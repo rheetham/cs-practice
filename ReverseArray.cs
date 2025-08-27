@@ -1,0 +1,20 @@
+namespace MyFIrstProject
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] numbers = new int[]
+            {
+                1,2,3,4,5
+            };
+
+            System.Array.Reverse(numbers);
+
+            foreach(int number in numbers)
+            {
+                System.Console.Write($"{number} ");
+            }
+        }
+    }
+}
