@@ -18,6 +18,7 @@ namespace MyFIrstProject
             }
 
             int index = System.Array.IndexOf(numbers, search);
+            // int index = System.Array.IndexOf(numbers, search, startIndex);
             if (index >= 0)
             {
                 System.Console.WriteLine($"{search} found at index {index}");
